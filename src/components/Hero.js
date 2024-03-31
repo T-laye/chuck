@@ -16,7 +16,7 @@ export default function Hero() {
             Welcome to the exciting world of Chuck{" "}
           </p>
           <Link
-            href="https://app.uniswap.org/#/swap?outputCurrency=0x9fe8c0d27a2e6ece417c6af6bcd674e6a9855d28&chain=goerli"
+            href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
             target="_blank"
             className="w-1/2"
           >
