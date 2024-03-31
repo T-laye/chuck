@@ -6,44 +6,77 @@ import { FaCopy } from "react-icons/fa";
 import { IoMdCopy } from "react-icons/io";
 
 export default function WhitePaper() {
-    const address = "0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A";
-    const [valueToCopy, setValueToCopy] = useState(address);
+  const address = "0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A";
+  const [valueToCopy, setValueToCopy] = useState(address);
 
-    const handleCopyToClipboard = async () => {
-      try {
-        await navigator.clipboard.writeText(valueToCopy);
-        alert("Contract Address copied to clipboard!");
-      } catch (error) {
-        console.error("Error copying to clipboard:", error);
-      }
-    };
+  const handleCopyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(valueToCopy);
+      alert("Contract Address copied to clipboard!");
+    } catch (error) {
+      console.error("Error copying to clipboard:", error);
+    }
+  };
   return (
     <Layout title="White Paper">
       <Header />
-      <section className="pt-20 min-h-screen pb-20">
+      <section className=" pt-10 lg:pt-20 min-h-screen pb-20">
         <div className="container mx-auto pt-10 px-4">
           <DropBoxes />
-          <h2 className="font-upheavtt text-center text-3xl mt-5 max-w-4xl mx-auto ">
+          <h2
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            className="font-upheavtt text-center text-3xl mt-5 max-w-4xl mx-auto "
+          >
             {" "}
             CHUCK: The Memecoin Tribute to Chuck Norris and His Beloved Dog
           </h2>
-          <h2 className=" text-3xl mt-10 "> Token Details</h2>
-          <p className=" text-2xl mt-5 ">
+          <h2
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-3xl mt-10 "
+          >
+            {" "}
+            Token Details
+          </h2>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             {" "}
             Total Supply: 1,000,000,000 CHUCK
-            <p
-              onClick={handleCopyToClipboard}
-              className="whitespace-wrap mt-4 break-words "
-            >
-              Contract Address: 0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
-              <span>
-                <FaCopy size={30} />
-              </span>
-            </p>
-            <p className="whitespace-wrap mt-4 break-words ">TICKER: CHUCK</p>
           </p>
-          <h2 className="font-upheavtt text-3xl mt-20  ">Abstract</h2>
-          <p className=" text-2xl mt-5 ">
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            onClick={handleCopyToClipboard}
+            className="whitespace-wrap mt-4 break-words text-2xl  "
+          >
+            Contract Address: 0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
+            <span>
+              <FaCopy size={30} />
+            </span>
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="whitespace-wrap mt-4 break-words text-2xl "
+          >
+            TICKER: CHUCK
+          </p>
+          <h2
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-3xl mt-20  "
+          >
+            Abstract
+          </h2>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             CHUCK is a memecoin project paying homage to the iconic Chuck Norris
             and his faithful companion, Digby. With a total supply of
             1,000,000,000 CHUCK tokens, the project aims to foster a vibrant
@@ -55,16 +88,36 @@ export default function WhitePaper() {
             dogs.
           </p>
 
-          <h3 className="font-upheavtt text-2xl mt-14  ">1. Introduction</h3>
-          <p className=" text-2xl mt-5 ">
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-2xl mt-14  "
+          >
+            1. Introduction
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             CHUCK emerges as a tribute to the enduring legacy of Chuck Norris,
             an emblematic figure in popular culture, and his beloved dog, Digby.
             This white paper outlines the vision, utility, and objectives of the
             CHUCK project, emphasizing community engagement, meme culture, and
             philanthropy.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-14 ">2. Vision </h3>
-          <p className=" text-2xl mt-5 ">
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-2xl mt-14 "
+          >
+            2. Vision{" "}
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             CHUCK is not merely a memecoin; it is a community-driven endeavor
             with a vision to elevate the BASE ecosystem and contribute to
             charitable causes. By leveraging Chuck Norris&apos;s cultural
@@ -73,8 +126,18 @@ export default function WhitePaper() {
             vibrant community centered around Chuck Norris-themed content and
             activities.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-14 ">3. Utility</h3>
-          <p className=" text-2xl mt-5 ">
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-2xl mt-14 "
+          >
+            3. Utility
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             CHUCK tokens offer a range of utilities designed to enrich the
             experience of holders within the CHUCK community. Holders gain
             access to exclusive channels, including the CHUCK Telegram group and
@@ -91,8 +154,19 @@ export default function WhitePaper() {
             retirement of working K9s, aligning with CHUCK&apos;s commitment to
             giving back to the community.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-14 "> 4. Conclusion </h3>
-          <p className=" text-2xl mt-5 ">
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-2xl mt-14 "
+          >
+            {" "}
+            4. Conclusion{" "}
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             CHUCK embodies the spirit of community, creativity, and
             philanthropy, paying tribute to Chuck Norris and his loyal
             companion, Digby. Through its activities, CHUCK aims to entertain,
@@ -100,8 +174,19 @@ export default function WhitePaper() {
             CHUCK community as we embark on an adventure inspired by the
             toughness of Chuck Norris and the loyalty of man&apos;s best friend.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-14"> Disclaimer </h3>
-          <p className=" text-2xl mt-5 ">
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-2xl mt-14"
+          >
+            {" "}
+            Disclaimer{" "}
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-2xl mt-5 "
+          >
             CHUCK is a memecoin project and should be treated as such. While
             efforts have been made to ensure the accuracy of the information
             provided in this white paper, CHUCK makes no guarantees or

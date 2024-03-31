@@ -2,19 +2,19 @@ import React from "react";
 
 export default function RoadMapCards({ topic, content, date, number }) {
   return (
-    <div className="mb-6 flex max-w-lg w-full md:w-2/3 mx-auto ">
+    <div
+      data-aos="zoom-in"
+      data-aos-delay="0"
+      className="mb-6 flex max-w-lg w-full md:w-2/3 mx-auto "
+    >
       <div className="flex flex-col space-y-1 shadow-md pl-4 pt-2 pb-6 relative text-base bg-white rounded-xl text-black px-4 w-full max-w-lg">
         <div className=" h-7 w-7 rounded-full flex flex-col justify-center items-center absolute -bottom-2 -left-[15px] -z-9 bg-primary">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="h-6 w-6 text-white  rounded-full text-base font-bold flex items-center justify-center"
-          >
+          <div className="h-6 w-6 text-white  rounded-full text-base font-bold flex items-center justify-center">
             1
           </div>
         </div>
         <div
-          data-aos="fade-down"
+          data-aos="fade-in"
           data-aos-delay="400"
           className="flex  flex-col space-y-1 ml-2 "
         >

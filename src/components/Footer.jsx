@@ -15,9 +15,10 @@ function Footer() {
     <footer className="relative bg-[#0070F0] border-t border-[#0070F0] pb-5 pt-6 font-pixelifySans">
       <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-12">
         <div className="w-full flex justify-between  md:justify-center  ">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-center w-full">
             <Logo />
-            <h2 className="text-3xl  text-white  font-upheavtt">Chuck</h2>
+            <h2 className="text-3xl  text-white  font-upheavtt ">Chuck</h2>
+            {/* <h2 className="text-3xl  text-white  font-upheavtt">.</h2> */}
           </div>
         </div>
       </div>
