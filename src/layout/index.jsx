@@ -7,7 +7,7 @@ export default function Layout({ title, children }) {
     <>
       <Head>
         <title>{title ? `${title} | Chuck` : "Chuck"}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Chuck Token on Base" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/yellow_bg.jpeg" />
       </Head>

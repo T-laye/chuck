@@ -1,9 +1,22 @@
 import Header from "@/components/Header";
 import DropBoxes from "@/components/helpers/DropBoxes";
 import Layout from "@/layout";
-import React from "react";
+import React, { useState } from "react";
+import { FaCopy } from "react-icons/fa";
+import { IoMdCopy } from "react-icons/io";
 
 export default function WhitePaper() {
+    const address = "0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A";
+    const [valueToCopy, setValueToCopy] = useState(address);
+
+    const handleCopyToClipboard = async () => {
+      try {
+        await navigator.clipboard.writeText(valueToCopy);
+        alert("Contract Address copied to clipboard!");
+      } catch (error) {
+        console.error("Error copying to clipboard:", error);
+      }
+    };
   return (
     <Layout title="White Paper">
       <Header />
@@ -18,10 +31,16 @@ export default function WhitePaper() {
           <p className=" text-2xl mt-5 ">
             {" "}
             Total Supply: 1,000,000,000 CHUCK
-            <p className="whitespace-wrap mt-4 break-words ">
+            <p
+              onClick={handleCopyToClipboard}
+              className="whitespace-wrap mt-4 break-words "
+            >
               Contract Address: 0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
-              <br /> <br /> TICKER: CHUCK
+              <span>
+                <FaCopy size={30} />
+              </span>
             </p>
+            <p className="whitespace-wrap mt-4 break-words ">TICKER: CHUCK</p>
           </p>
           <h2 className="font-upheavtt text-3xl mt-20  ">Abstract</h2>
           <p className=" text-2xl mt-5 ">

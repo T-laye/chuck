@@ -18,7 +18,7 @@ export default function Overview() {
           data-aos-delay="0"
           className="text-center text-base lg:text-2xl max-w-6xl"
         >
-          $Chuck was born out of a deep admiration for the iconic Chuck Norris
+          Chuck was born out of a deep admiration for the iconic Chuck Norris
           memes, but it stands for so much more than just internet meme. This
           token is at the core of a vibrant and fun-loving meme community with a
           noble mission: to shine a light on animal welfare. So, whether you are

@@ -2,6 +2,29 @@ import Image from "next/image";
 import React, { useState } from "react";
 import DropBoxes from "./helpers/DropBoxes";
 import Link from "next/link";
+// import Typewriter from "typewriter-effect";
+
+//  <div className="bg-red-00 w-fit lg:w-full relative mx-auto">
+//    <Typewriter
+//      onInit={(typewriter) => {
+//        typewriter
+//          .typeString("Igniting a Revolution in HR Innovation")
+//          .callFunction(() => {})
+//          .pauseFor(2500)
+//          .callFunction(() => {
+//            // console.log("All strings were deleted");
+//          })
+//          .start();
+//      }}
+//    />
+//    <span
+//      data-aos="fade-right"
+//      data-aos-delay="2000"
+//      className="absolute lg:-bottom-4 -bottom-2 right-2 lg:right-1 2xl:right-8"
+//    >
+//      <Curved />
+//    </span>
+//  </div>;
 
 export default function Hero() {
   return (
