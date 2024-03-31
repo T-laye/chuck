@@ -17,10 +17,13 @@ export default function WhitePaper() {
           <h2 className=" text-3xl mt-10 "> Token Details</h2>
           <p className=" text-2xl mt-5 ">
             {" "}
-            Total Supply: 1,000,000,000 CHUCK <br /> <br /> Contract Address:
-            0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A <br /> TICKER: CHUCK
+            Total Supply: 1,000,000,000 CHUCK
+            <p className="whitespace-wrap mt-4 break-words ">
+              Contract Address: 0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
+              <br /> <br /> TICKER: CHUCK
+            </p>
           </p>
-          <h2 className="font-upheavtt text-3xl mt-5  ">Abstract</h2>
+          <h2 className="font-upheavtt text-3xl mt-20  ">Abstract</h2>
           <p className=" text-2xl mt-5 ">
             CHUCK is a memecoin project paying homage to the iconic Chuck Norris
             and his faithful companion, Digby. With a total supply of
@@ -33,7 +36,7 @@ export default function WhitePaper() {
             dogs.
           </p>
 
-          <h3 className="font-upheavtt text-2xl mt-5  ">1. Introduction</h3>
+          <h3 className="font-upheavtt text-2xl mt-14  ">1. Introduction</h3>
           <p className=" text-2xl mt-5 ">
             CHUCK emerges as a tribute to the enduring legacy of Chuck Norris,
             an emblematic figure in popular culture, and his beloved dog, Digby.
@@ -41,7 +44,7 @@ export default function WhitePaper() {
             CHUCK project, emphasizing community engagement, meme culture, and
             philanthropy.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-5  ">2. Vision </h3>
+          <h3 className="font-upheavtt text-2xl mt-14 ">2. Vision </h3>
           <p className=" text-2xl mt-5 ">
             CHUCK is not merely a memecoin; it is a community-driven endeavor
             with a vision to elevate the BASE ecosystem and contribute to
@@ -51,7 +54,7 @@ export default function WhitePaper() {
             vibrant community centered around Chuck Norris-themed content and
             activities.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-5  ">3. Utility</h3>
+          <h3 className="font-upheavtt text-2xl mt-14 ">3. Utility</h3>
           <p className=" text-2xl mt-5 ">
             CHUCK tokens offer a range of utilities designed to enrich the
             experience of holders within the CHUCK community. Holders gain
@@ -69,7 +72,7 @@ export default function WhitePaper() {
             retirement of working K9s, aligning with CHUCK&apos;s commitment to
             giving back to the community.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-5  "> 4. Conclusion </h3>
+          <h3 className="font-upheavtt text-2xl mt-14 "> 4. Conclusion </h3>
           <p className=" text-2xl mt-5 ">
             CHUCK embodies the spirit of community, creativity, and
             philanthropy, paying tribute to Chuck Norris and his loyal
@@ -78,7 +81,7 @@ export default function WhitePaper() {
             CHUCK community as we embark on an adventure inspired by the
             toughness of Chuck Norris and the loyalty of man&apos;s best friend.
           </p>
-          <h3 className="font-upheavtt text-2xl mt-5  "> Disclaimer </h3>
+          <h3 className="font-upheavtt text-2xl mt-14"> Disclaimer </h3>
           <p className=" text-2xl mt-5 ">
             CHUCK is a memecoin project and should be treated as such. While
             efforts have been made to ensure the accuracy of the information
