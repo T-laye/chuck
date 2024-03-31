@@ -1,33 +1,186 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Unica+One&display=swap"); */
+@font-face {
+  font-family: "silkscreen";
+  src: url("/fonts/Silkscreen-Regular.ttf");
+}
+
+@font-face {
+  font-family: "command";
+  src: url("/fonts/windows_command_prompt.ttf");
+}
+
+@font-face {
+  font-family: "upheavtt";
+  src: url("/fonts/upheavtt.ttf");
+}
+
+@font-face {
+  font-family: "pixelifySans";
+  src: url("/fonts/PixelifySans.ttf");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: transparent;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* > * {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: transparent;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #5ba7ff;
+  color: white;
+  /* font-size: 20px; */
+  /* font-family: "pixelifySans", sans-serif; */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+.scrolling-header {
+  background-color: #0070f0;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+.btn {
+  @apply rounded-md py-1.5 min-w-[58px] min-h-[20px] lg:py-3 lg:min-h-[24px] lg:min-w-[157px] lg:text-xl cursor-pointer px-5 flex items-center justify-center font-semibold text-base;
+}
+.btn:hover,
+.icon:hover {
+  @apply scale-95 duration-200;
+}
+.btn:active,
+.icon:active {
+  @apply scale-100 duration-200;
+}
+
+.link:hover {
+  transition: all 0.4s ease;
+  @apply text-red-700;
+}
+
+.chart {
+  @apply rounded-full  h-40 w-40;
+}
+
+.chart-1 {
+  background: conic-gradient(from 0deg, #fbff00 70%, #0070f0 30%);
+}
+.chart-2 {
+  background: conic-gradient(from 90deg, #0070f0 85%, #fbff00 15%);
+}
+.chart-3 {
+  background: conic-gradient(from 90deg, #0070f0 92.5%, #fbff00 7.5%);
+}
+.chart-4 {
+  background: conic-gradient(from 90deg, #0070f0 92.5%, #fbff00 7.5%);
+}
+
+.circles {
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  /* background-image: url("../../public/$PXL8.svg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: #0070f050;
+  animation: animate 14s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 14px;
+  height: 14px;
+  animation-delay: 2s;
+  animation-duration: 10s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 14px;
+  height: 14px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 14px;
+  height: 14px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 10px;
+  height: 10px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 10px;
+  height: 10px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 15s;
+  animation-duration: 30s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 0s;
+  animation-duration: 11s;
 }
