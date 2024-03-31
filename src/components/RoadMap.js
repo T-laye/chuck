@@ -6,7 +6,7 @@ export default function RoadMap() {
   return (
     <div id="roadmap" className="pb-20 pt-20">
       <DropBoxes />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <h2 className="font-upheavtt text-center text-3xl mb-14">
           Chuck Roadmap
         </h2>
