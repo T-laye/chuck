@@ -61,7 +61,7 @@ export default function Header() {
               <li className="link ">
                 <Link
                   target="_blank"
-                  href="https://dexscreener.com/goerli/0x196483e5de44074951b10cf802331d40b2346db5"
+                  href="https://www.dextools.io/app/en/base/pair-explorer/0xa878a7944062c3984b214a6f7bc3970f4a6a5257"
                 >
                   Chart
                 </Link>
@@ -69,7 +69,7 @@ export default function Header() {
               <li className="link ">
                 <Link
                   target="_blank"
-                  href="https://dexscreener.com/goerli/0x196483e5de44074951b10cf802331d40b2346db5"
+                  href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
                 >
                   Buy Token
                 </Link>
@@ -145,7 +145,7 @@ export default function Header() {
                     <li className="link ">
                       <Link
                         target="_blank"
-                        href="https://dexscreener.com/goerli/0x196483e5de44074951b10cf802331d40b2346db5"
+                        href="https://www.dextools.io/app/en/base/pair-explorer/0xa878a7944062c3984b214a6f7bc3970f4a6a5257"
                       >
                         Chart
                       </Link>
@@ -153,7 +153,7 @@ export default function Header() {
                     <li className="link ">
                       <Link
                         target="_blank"
-                        href="https://dexscreener.com/goerli/0x196483e5de44074951b10cf802331d40b2346db5"
+                        href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
                       >
                         Buy Token
                       </Link>

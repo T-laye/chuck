@@ -2,10 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineYoutube } from "react-icons/ai";
+import DropBoxes from "./helpers/DropBoxes";
 
 export default function How() {
   return (
     <div id="how">
+      <DropBoxes />
       <div className="pb-20 min-h-screen px-4 container mx-auto max-w-5xl ">
         <div className="lg:pt-[140px] pt-[100px] text-lg   ">
           <h2 className="font-upheavtt text-center text-3xl  ">How it Works</h2>

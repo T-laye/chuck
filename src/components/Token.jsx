@@ -1,9 +1,11 @@
 import React from "react";
+import DropBoxes from "./helpers/DropBoxes";
 
 export default function Token() {
   return (
-    <section className="pb-10 pt-20">
+    <section id="tokenomics" className="pb-10 pt-20">
       <div className="container mx-auto px-4">
+      <DropBoxes />
         <h2 className="font-upheavtt text-center text-3xl ">Token Supply</h2>
         <p className="text-2xl text-center text-red-700 font-bold">
           1,000,000,000

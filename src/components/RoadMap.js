@@ -1,9 +1,11 @@
 import React from "react";
 import RoadMapCards from "./helpers/RoadMapCards";
+import DropBoxes from "./helpers/DropBoxes";
 
 export default function RoadMap() {
   return (
-    <div className="pb-20 pt-20">
+    <div id="roadmap" className="pb-20 pt-20">
+      <DropBoxes />
       <div className="container mx-auto px-4">
         <h2 className="font-upheavtt text-center text-3xl mb-14">
           Chuck Roadmap
