@@ -17,7 +17,7 @@ function Footer() {
         <div className="w-full flex justify-between  md:justify-center  ">
           <div className="flex items-start justify-between mb-1 w-full px-2">
             <div className="flex gap-2 items-center">
-              <Link href="">
+              <Link href="https://www.base.org/" target="_blank">
                 <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 7.png"
@@ -29,7 +29,10 @@ function Footer() {
                   />
                 </div>
               </Link>
-              <Link href="">
+              <Link
+                href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
+                target="_blank"
+              >
                 <div className="w-8 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 6.png"
@@ -42,7 +45,7 @@ function Footer() {
                 </div>
               </Link>
             </div>
-            <Link href="">
+            <Link href="/">
               <div className=" rounded-md overflow-hidden">
                 <Image
                   src="/images/rounded_logo_no_bg.png"
@@ -58,7 +61,7 @@ function Footer() {
               </div>
             </Link>
             <div className="flex gap-2 items-center">
-              <Link href="">
+              <Link href="https://t.me/Chuck_on_Base" target="_blank">
                 <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 8.png"
@@ -70,7 +73,7 @@ function Footer() {
                   />
                 </div>
               </Link>
-              <Link href="">
+              <Link href="https://twitter.com/CHUCK_on_Base" target="_blank"> 
                 <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 11.png"
