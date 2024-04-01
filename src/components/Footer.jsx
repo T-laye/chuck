@@ -15,10 +15,10 @@ function Footer() {
     <footer className="relative bg-[#0070F0] border-t border-[#0070F0] pb-5 pt-6 font-pixelifySans">
       <div className="flex flex-col md:flex-row justify-between  md:gap-12">
         <div className="w-full flex justify-between  md:justify-center  ">
-          <div className="flex items-center justify-between mb-1 w-full px-2">
+          <div className="flex items-start justify-between mb-1 w-full px-2">
             <div className="flex gap-2 items-center">
               <Link href="">
-                <div className="w-7 lg:w-16 rounded-md overflow-hidden">
+                <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 7.png"
                     alt="Chuk"
@@ -30,7 +30,7 @@ function Footer() {
                 </div>
               </Link>
               <Link href="">
-                <div className="w-8 lg:w-16 rounded-md overflow-hidden">
+                <div className="w-8 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 6.png"
                     alt="Chuk"
@@ -43,20 +43,23 @@ function Footer() {
               </Link>
             </div>
             <Link href="">
-              <div className="w-12 lg:w-16 rounded-md overflow-hidden">
+              <div className=" rounded-md overflow-hidden">
                 <Image
                   src="/images/rounded_logo_no_bg.png"
                   alt="Chuk"
                   height={500}
                   width={500}
                   priority
-                  className="h-full w-full"
+                  className="h-full w-12 lg:w-20"
                 />
+                <h2 className="text-3xl text-center text-white  font-upheavtt ">
+                  Chuck
+                </h2>
               </div>
             </Link>
             <div className="flex gap-2 items-center">
               <Link href="">
-                <div className="w-7 lg:w-16 rounded-md overflow-hidden">
+                <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 8.png"
                     alt="Chuk"
@@ -68,7 +71,7 @@ function Footer() {
                 </div>
               </Link>
               <Link href="">
-                <div className="w-7 lg:w-16 rounded-md overflow-hidden">
+                <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 11.png"
                     alt="Chuk"
@@ -82,9 +85,6 @@ function Footer() {
             </div>
           </div>
         </div>
-        <h2 className="text-3xl text-center text-white  font-upheavtt ">
-          Chuck
-        </h2>
       </div>
       <div className="text-white w-full  md:text-lg">
         {/* <p className="flex justify-center ">
