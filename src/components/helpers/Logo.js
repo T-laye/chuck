@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function Logo({ height = 500, width = 500 }) {
   return (
     <Link href="/">
-      <div className="w-16 lg:w-24">
+      <div className="w-10 lg:w-16 rounded-md overflow-hidden">
         <Image
-          src="/images/rounded_logo_no_bg.png"
+          src="/images/yellow_bg.jpeg"
           alt="Chuk"
           height={height}
           width={width}

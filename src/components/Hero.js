@@ -48,14 +48,14 @@ export default function Hero() {
             </button>
           </Link>
         </div>
-        <div className="flex-1 lg:h-full bg-blac lg:w-1/2 lg:mt-20">
+        <div className="flex-1 lg:h-full bg-blac lg:w-1/2 lg:mt-28">
           <div
             data-aos="zoom-in"
             data-aos-delay="400"
             className="rounded-xl overflow-hidden md:w-3/4 md:mx-auto"
           >
             <Image
-              src="/images/boxers.jpeg"
+              src="/images/chuck_logo2-removebg-preview.png"
               alt="image"
               height={500}
               width={500}

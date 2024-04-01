@@ -35,13 +35,10 @@ export default function How() {
               data-aos-delay="100"
               className="  font-upheavtt text-2xl mt-8"
             >
-              - CoinBase
+              - Swap your ETH on Base for $CHUCK
             </h2>
             <p data-aos="flip-down" data-aos-delay="100">
-              Basically the CoinBase wallet browser extension provides support
-              for Base by default, so it should be already there. To verify just
-              log in to your Coinbase wallet press Swap and switch the network,
-              Base Network should be there by default.
+              Go on Uniswap and swap your Base Ethereum for $CHUCK.
             </p>
           </div>
 
@@ -156,15 +153,6 @@ export default function How() {
             </div>
 
             <div className="mb-10">
-              {/* <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
-                <Image
-                  src="/images/logo-main.jpg"
-                  alt="4"
-                  height={400}
-                  width={400}
-                  className="h-full w-full object-contain"
-                />
-              </div> */}
               <h2
                 data-aos="flip-down"
                 data-aos-delay="100"
@@ -175,23 +163,8 @@ export default function How() {
               <p data-aos="flip-down" data-aos-delay="100">
                 Learn how to add the Base network to your crypto wallet.
               </p>
-              {/* <Link href="https://youtu.be/XbHztxWbOyk" target="_blank">
-                <button className="border rounded-3xl px-4 py-2 hover:bg-blue-700 flex items-center gap-2 font-bold mt-4">
-                  {" "}
-                  <AiOutlineYoutube size={24} /> <span>Watch</span>
-                </button>
-              </Link> */}
             </div>
             <div data-aos="flip-down" data-aos-delay="100" className="mb-10">
-              {/* <div className=" w-[70%] rounded-2xl overflow-hidden max-w-4xl mt-2">
-                <Image
-                  src="/images/logo-main.jpg"
-                  alt="4"
-                  height={400}
-                  width={400}
-                  className="h-full w-full object-contain"
-                />
-              </div> */}
               <h2
                 data-aos="flip-down"
                 data-aos-delay="100"
@@ -202,12 +175,6 @@ export default function How() {
               <p data-aos="flip-down" data-aos-delay="100">
                 Learn how to bridge ETH from mainnet to Base chain.
               </p>
-              {/* <Link href="https://youtu.be/uXTkcGiDS60" target="_blank">
-                <button className="border rounded-3xl px-4 py-2 flex items-center gap-2 font-bold mt-4">
-                  {" "}
-                  <AiOutlineYoutube size={24} /> <span>Watch</span>
-                </button>
-              </Link> */}
             </div>
             <div>
               <h2

@@ -47,6 +47,9 @@ export default function Header() {
           >
             <ul className="flex space-x-10 text-lg font-medium">
               <li className="link ">
+                <Link href="/whitePaper">White Paper</Link>
+              </li>
+              <li className="link ">
                 <Link href="/#roadmap">RoadMap</Link>
               </li>
               <li className="link ">
@@ -56,7 +59,12 @@ export default function Header() {
                 <Link href="/#how">How to Buy</Link>
               </li>
               <li className="link ">
-                <Link href="/whitePaper">White Paper</Link>
+                <Link
+                  target="_blank"
+                  href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
+                >
+                  Buy Token
+                </Link>
               </li>
               <li className="link ">
                 <Link
@@ -65,13 +73,10 @@ export default function Header() {
                 >
                   Chart
                 </Link>
-              </li>
+              </li>{" "}
               <li className="link ">
-                <Link
-                  target="_blank"
-                  href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
-                >
-                  Buy Token
+                <Link target="_blank" href="https://linktr.ee/chuckonbase">
+                  Join Us
                 </Link>
               </li>
             </ul>
@@ -131,6 +136,9 @@ export default function Header() {
                   </div>
                   <ul className="flex flex-col space-y-2.5 text-lg font-medium mt-10 bggray-800 justify-center place-self-center  w-full items-start ">
                     <li className="link ">
+                      <Link href="/whitePaper">White Paper</Link>
+                    </li>
+                    <li className="link ">
                       <Link href="/#roadmap">RoadMap</Link>
                     </li>
                     <li className="link ">
@@ -140,7 +148,12 @@ export default function Header() {
                       <Link href="/#how">How to Buy</Link>
                     </li>
                     <li className="link ">
-                      <Link href="/whitePaper">White Paper</Link>
+                      <Link
+                        target="_blank"
+                        href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
+                      >
+                        Buy Token
+                      </Link>
                     </li>
                     <li className="link ">
                       <Link
@@ -153,9 +166,9 @@ export default function Header() {
                     <li className="link ">
                       <Link
                         target="_blank"
-                        href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
+                        href="https://linktr.ee/chuckonbase"
                       >
-                        Buy Token
+                        Join Us
                       </Link>
                     </li>
                   </ul>
