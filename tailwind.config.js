@@ -12,15 +12,14 @@ module.exports = {
     extend: {
       fontFamily: {
         silkscreen: ["silkscreen", "sans-serif"],
-        command: ["command", "sans-serif"],
+        window: ["window", "sans-serif"],
         upheavtt: ["upheavtt", "sans-serif"],
         pixelifySans: ["pixelifySans", "sans-serif"],
       },
       colors: {
-        black: "#111111",
-        darkBlue: "#120A44",
-        lightBlue: "#597DFE",
-        primary: "#0070f0",
+        primary: "#000060",
+        secondary: "#ffdd8b",
+        accent: "#ffdd8b",
       },
     },
   },

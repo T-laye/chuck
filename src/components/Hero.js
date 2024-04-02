@@ -13,11 +13,12 @@ export default function Hero() {
           <h1
             data-aos="fade-down"
             data-aos-delay="300"
-            className="font-upheavtt text-center text-4xl lg:text-5xl xl:text-7xl lg:text-start"
+            className="font-window text-center text-4xl lg:text-5xl xl:text-7xl lg:text-start"
           >
-            Chuck: Unleashing Joy and Advocacy in the Web3 World
+            Chuck, the round house kicking crypto canine, unleashed strength for
+            a pawsitive cause !
           </h1>
-          <div
+          {/* <div
             data-aos="fade-down"
             className="text-xl text-center text-red-700 font-bold lg:text-start lg:text-3xl bgblack"
           >
@@ -33,7 +34,7 @@ export default function Hero() {
                   .start();
               }}
             />
-          </div>
+          </div> */}
           <Link
             href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
             target="_blank"
@@ -42,7 +43,7 @@ export default function Hero() {
             <button
               data-aos="flip-down"
               data-aos-delay="100"
-              className="btn w-full bg-primary text-xl"
+              className="btn w-full bg-red-700 text-xl border border-secondary"
             >
               Buy Now
             </button>

@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "command";
+  font-family: "window";
   src: url("/fonts/windows_command_prompt.ttf");
 }
 
@@ -35,8 +35,9 @@
 }
 
 body {
-  background: #5ba7ff;
+  /* background: #5ba7ff; */
   color: white;
+  @apply bg-primary
   /* font-size: 20px; */
   /* font-family: "pixelifySans", sans-serif; */
 }
@@ -46,7 +47,7 @@ html {
 }
 
 .scrolling-header {
-  background-color: #0070f0;
+  /* background-color: #0070f0; */
   z-index: 1000;
   backdrop-filter: blur(2px);
 }
@@ -63,6 +64,10 @@ html {
   @apply scale-100 duration-200;
 }
 
+.link {
+  transition: all 0.4s ease;
+  @apply text-primary;
+}
 .link:hover {
   transition: all 0.4s ease;
   @apply text-red-700;
@@ -108,7 +113,7 @@ html {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: #0070f050;
+  background: #1c3786;
   animation: animate 14s linear infinite;
   bottom: -150px;
 }

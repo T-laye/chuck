@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <header
-      className={`h-[9vh] lg:h-[13vh] 2xl:h-[10vh] border-b border-b-[#FFFFFF20] fixed w-full transition-transform ${
+      className={`h-[9vh] lg:h-[13vh] 2xl:h-[10vh] border-b border-b-[#FFFFFF20] fixed w-full transition-transform bg-secondary ${
         visible
           ? "top-0 transform translate-y-0 scrolling-header lg:overflow-hidden"
           : "-top-full transform -translate-y-full "
@@ -97,13 +97,13 @@ export default function Header() {
             data-aos="flip-down"
             data-aos-delay="100"
             onClick={handleNav}
-            className="ml-2 cursor-pointer lg:hidden"
+            className="ml-2 cursor-pointer lg:hidden text-primary"
           >
             <FiMenu size={30} />
           </div>
 
           {/* Mobile Navbar */}
-          <nav className="lg:hidden ">
+          <nav className="lg:hidden bg-secondary">
             <div className=" lg:hidden ">
               <div
                 onClick={handleNav}
@@ -118,11 +118,11 @@ export default function Header() {
                     openNav
                       ? "translate-y-0 duration-500 opacity-100"
                       : "duration-300 -translate-y-full opacity-0"
-                  } flex flex-col  bg-[#0070f0]  h-[55vh]   px-10 pt-10`}
+                  } flex flex-col bg-secondary  h-[55vh]   px-10 pt-10`}
                 >
                   <div
                     onClick={handleNav}
-                    className=" w-[28px] place-self-end mx-4 cursor-pointer"
+                    className=" w-[28px] place-self-end mx-4 cursor-pointer text-primary"
                   >
                     <IoCloseCircleOutline size={30} />
                     {/* <Image

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import DropBoxes from "./helpers/DropBoxes";
 import { FaCopy } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Token() {
   const address = "0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A";
@@ -29,7 +30,7 @@ export default function Token() {
           data-aos="fade-right"
           data-aos-delay="100"
           onClick={handleCopyToClipboard}
-          className="whitespace-wrap break-words  text-center text-red-700 mb-10 font-medium text-lg"
+          className="whitespace-wrap break-words  text-center text-red-700 mb-10 font-bold text-2xl"
         >
           0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
           {/* <span>
@@ -53,11 +54,20 @@ export default function Token() {
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-y-10 gap-x-20">
           <div className="flex flex-col items-center gap-3 ">
-            <div
+            {/* <div
               data-aos="zoom-in"
               data-aos-delay="100"
               className="chart chart-1"
-            ></div>
+            ></div> */}
+            <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
+              <Image
+                src="/images/TOCKENOMICS_60_.png"
+                height={500}
+                width={500}
+                alt="chart"
+                className="h-full w-full"
+              />
+            </div>
             <p data-aos="fade-left" data-aos-delay="100" className="text-2xl">
               60% LP
             </p>
@@ -67,41 +77,78 @@ export default function Token() {
             <p className="text-2xl">18% Development</p>
           </div> */}
           <div className="flex flex-col items-center gap-3">
-            <div
+            {/* <div
               data-aos="zoom-in"
               data-aos-delay="100"
               className="chart chart-3"
-            ></div>
+            ></div> */}
+            <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
+              <Image
+                src="/images/TOCKENOMICS_10_.png"
+                height={500}
+                width={500}
+                alt="chart"
+                className="h-full w-full"
+              />
+            </div>
+
             <p data-aos="fade-right" data-aos-delay="100" className="text-2xl">
               10% Team
             </p>
           </div>
           <div className="flex flex-col items-center gap-3">
-            <div
+            {/* <div
               data-aos="zoom-in"
               data-aos-delay="100"
               className="chart chart-3"
-            ></div>
+            ></div> */}
+            <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
+              <Image
+                src="/images/TOCKENOMICS_10_.png"
+                height={500}
+                width={500}
+                alt="chart"
+                className="h-full w-full"
+              />
+            </div>
             <p data-aos="fade-left" data-aos-delay="100" className="text-2xl">
               10% Community
             </p>
           </div>
           <div className="flex flex-col items-center gap-3">
-            <div
+            {/* <div
               data-aos="zoom-in"
               data-aos-delay="100"
               className="chart chart-4"
-            ></div>
+            ></div> */}
+            <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
+              <Image
+                src="/images/TOCKENOMICS_15_.png"
+                height={500}
+                width={500}
+                alt="chart"
+                className="h-full w-full"
+              />
+            </div>
             <p data-aos="fade-right" data-aos-delay="100" className="text-2xl">
               15% Marketing
             </p>
           </div>
           <div className="flex flex-col items-center gap-3">
-            <div
+            {/* <div
               data-aos="zoom-in"
               data-aos-delay="100"
               className="chart chart-5"
-            ></div>
+            ></div> */}
+            <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
+              <Image
+                src="/images/TOCKENOMICS_5_.png"
+                height={500}
+                width={500}
+                alt="chart"
+                className="h-full w-full"
+              />
+            </div>
             <p data-aos="fade-right" data-aos-delay="100" className="text-2xl">
               5% Dev
             </p>

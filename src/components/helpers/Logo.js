@@ -8,7 +8,7 @@ export default function Logo({ height = 500, width = 500 }) {
     <Link href="/">
       <div className="w-10 lg:w-16 rounded-md overflow-hidden">
         <Image
-          src="/images/yellow_bg.jpeg"
+          src="/images/blue_bg.jpeg"
           alt="Chuk"
           height={height}
           width={width}

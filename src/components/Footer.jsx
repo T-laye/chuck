@@ -46,7 +46,7 @@ function Footer() {
               </Link>
             </div>
             <Link href="/">
-              <div className=" rounded-md overflow-hidden">
+              <div className=" rounded-md overflow-hidden flex flex-col items-center">
                 <Image
                   src="/images/rounded_logo_no_bg.png"
                   alt="Chuk"
@@ -73,7 +73,7 @@ function Footer() {
                   />
                 </div>
               </Link>
-              <Link href="https://twitter.com/CHUCK_on_Base" target="_blank"> 
+              <Link href="https://twitter.com/CHUCK_on_Base" target="_blank">
                 <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 11.png"
