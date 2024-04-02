@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
-export default function Layout({ title, children }) {
+export default function Layout({ title, children, show=true }) {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/images/yellow_bg.jpeg" />
       </Head>
       <main className="overflow-hidden font-pixelifySans">{children}</main>
-      <Footer />
+      {show && <Footer />}
     </>
   );
 }

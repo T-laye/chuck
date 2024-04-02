@@ -121,6 +121,9 @@ function Footer() {
           <span className="mr-2">&copy; {currentYear}</span> All rights
           reserved.
         </p> */}
+        <Link href="/disclaimer" target="">
+          <p className="text-center">Disclaimer</p>
+        </Link>
         <p className="text-center">Powered by Base</p>
         <p className="text-center mt-2">
           All Rights Reserved &copy; {currentYear} Chuck On Base

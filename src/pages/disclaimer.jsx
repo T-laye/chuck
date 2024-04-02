@@ -7,18 +7,7 @@ import React, { useState } from "react";
 import { FaCopy } from "react-icons/fa";
 import { IoMdCopy } from "react-icons/io";
 
-export default function WhitePaper() {
-  // const address = "0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A";
-  // const [valueToCopy, setValueToCopy] = useState(address);
-
-  // const handleCopyToClipboard = async () => {
-  //   try {
-  //     await navigator.clipboard.writeText(valueToCopy);
-  //     alert("Contract Address copied to clipboard!");
-  //   } catch (error) {
-  //     console.error("Error copying to clipboard:", error);
-  //   }
-  // };
+export default function Disclaimer() {
   return (
     <Layout title="White Paper" show={false}>
       {/* <Header /> */}
@@ -37,30 +26,35 @@ export default function WhitePaper() {
                 />
               </div>
             </Link>
-            <div className="flex-2">WHITE PAPER</div>
+            <div className="flex-2">DISCLAIMER</div>
             <div className="flex-1"></div>
           </header>
           <DropBoxes />
-
+          <div>
+            <p className="text-center mx-auto max-w-2xl italic">
+              Please read the following disclaimer carefully before engaging in
+              any buying, selling, or trading oncryptocurrency exchanges such as
+              Uniswap.
+            </p>
+          </div>
           <h2
             data-aos="fade-right"
             data-aos-delay="100"
-            className="font-upheavtt text-center text-2xl lg:text-3xl "
+            className="font-upheavtt mt-10 text-center text-2xl lg:text-3xl "
           >
-            What is $CHUCK?
+            Acknowledgment of Risk
           </h2>
           <p
             data-aos="fade-right"
             data-aos-delay="100"
             className=" text-xl mt-2 text-center"
           >
-            $CHUCK is a project that embodies the spirit of dog-themed meme
-            coins within the crypto space. It pays homage to the enduring
-            relationship between iconic figures and their canine companions,
-            represented through $CHUCK, a symbol of resilience and strength. As
-            a nod to pop culture heroes and their beloved dogs, $CHUCK stands as
-            a tribute to the unique bond shared between them, encapsulating the
-            essence of companionship and loyalty.
+            Trading goods, products, or digital currencies carries inherent
+            risk. The value of digital assets can drastically change within
+            short timeframes, potentially leading to significant gains or
+            losses. Given the unpredictable nature of digital currencies, which
+            may even become valueless, consider your financial position
+            carefully before participating in such transactions.
           </p>
 
           <h3
@@ -68,27 +62,17 @@ export default function WhitePaper() {
             data-aos-delay="100"
             className="font-upheavtt text-center text-2xl lg:text-3xl mt-14  "
           >
-            The Vision
+            Transaction Fees
           </h3>
           <p
             data-aos="fade-right"
             data-aos-delay="100"
             className=" text-xl mt-2 text-center"
           >
-            $CHUCK is a community-centric project with a focus on spotlighting
-            the BASE ecosystem. Meme coins serve as an accessible entry point
-            for the general public into the realm of cryptocurrency. BASE, being
-            an innovative layer two scaling solution for Ethereum, remains
-            relatively unknown outside the crypto community. $CHUCK&apos;s
-            mission is to amplify interest and engagement within the BASE
-            environment, foster increased activity on decentralized exchanges
-            (DEXes), boost the total value locked (TVL) on the BASE platform,
-            and support the overarching goals set forth by Brian Armstrong and
-            the Coinbase team. Moreover, $CHUCK is dedicated to cultivating a
-            themed ecosystem and community, offering members a platform to
-            connect, share, and create inspired NFTs, merchandise, and games
-            that echo the adventurous spirit of 1980&apos;s action movies and
-            retro gaming aesthetics.
+            Be advised that transaction fees, including a potential 5% sell tax,
+            may apply when trading digital assets. Buying may not incur this
+            tax. Fee structures are subject to change, and staying informed of
+            the current fees is your responsibility.
           </p>
 
           <h3
@@ -96,27 +80,24 @@ export default function WhitePaper() {
             data-aos-delay="100"
             className="font-upheavtt text-center text-2xl lg:text-3xl mt-14  "
           >
-            The Utility
+            General Investment Disclaimer
           </h3>
           <p
             data-aos="fade-right"
             data-aos-delay="100"
             className=" text-xl mt-2 text-center"
           >
-            Designed with fun and community engagement at its core, $CHUCK
-            serves as more than just a token; it&apos;s a passport to an
-            exclusive club. Owning $CHUCK tokens grants access to the $CHUCK
-            Telegram group and Chuck-Bot, a specialized bot providing community
-            members with crucial insights into the crypto market, including
-            updates on trending coins and ETH gas fees. Token holders are also
-            privy to communitygenerated NFTs, games, and exclusive content.
-            Beyond its role as a dog-themed meme coin, $CHUCK is committed to
-            making a tangible impact on the welfare of dogs. Each $CHUCK
-            transaction includes a 5% tax, from which 2% is dedicated to
-            supporting dog charities. This initiative marks $CHUCK as the first
-            meme coin with a direct focus on benefiting our furry friends,
-            aligning with the wider meme culture prevalent in the crypto
-            industry.
+            This document is current as of its last revision and does not offer
+            investment, financial, or trading advice. Prior to any investment
+            action, it is recommended to undertake personal research and seek
+            advice from a financial professional. When you engage in
+            transactions, it is under the acknowledgement that you are not
+            investing in a security. All products are provided &apos;as is&apos;
+            with no guarantee or obligation of support. This platform is part of
+            a community-driven decentralized finance initiative and does not
+            carry the status of a regulated digital currency. Compliance with
+            local regulations, especially where cryptocurrencies are legally
+            restricted, is strongly advised.
           </p>
 
           <h3
@@ -124,28 +105,65 @@ export default function WhitePaper() {
             data-aos-delay="100"
             className="font-upheavtt text-center text-2xl lg:text-3xl mt-14  "
           >
-            The Utility
+            Accuracy of Information
           </h3>
           <p
             data-aos="fade-right"
             data-aos-delay="100"
             className=" text-xl mt-2 text-center"
           >
-            Designed with fun and community engagement at its core, $CHUCK
-            serves as more than just a token; it&apos;s a passport to an
-            exclusive club. Owning $CHUCK tokens grants access to the $CHUCK
-            Telegram group and Chuck-Bot, a specialized bot providing community
-            members with crucial insights into the crypto market, including
-            updates on trending coins and ETH gas fees. Token holders are also
-            privy to communitygenerated NFTs, games, and exclusive content.
-            Beyond its role as a dog-themed meme coin, $CHUCK is committed to
-            making a tangible impact on the welfare of dogs. Each $CHUCK
-            transaction includes a 5% tax, from which 2% is dedicated to
-            supporting dog charities. This initiative marks $CHUCK as the first
-            meme coin with a direct focus on benefiting our furry friends,
-            aligning with the wider meme culture prevalent in the crypto
-            industry.
+            We aim to maintain accurate information but will not be held
+            responsible for any inaccuracies. Information is offered without
+            warranty, and reliance upon it is at your own risk. Regulatory
+            Uncertainty: The regulatory environment for digital currencies is
+            evolving and may differ widely between jurisdictions. It is
+            incumbent upon you to ensure that you are compliant with all
+            applicable laws and regulations for your area regarding digital
+            currency use and trading.
           </p>
+
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-center text-2xl lg:text-3xl mt-14  "
+          >
+            No Guarantees
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-xl mt-2 text-center"
+          >
+            There are no guaranteed profits or assurances against losses in the
+            digital currency market. No representation regarding the potential
+            value performance of any digital asset has been made to you.{" "}
+          </p>
+
+          <h3
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="font-upheavtt text-center text-2xl lg:text-3xl mt-14  "
+          >
+            Fictional Representation
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className=" text-xl mt-2 text-center mb-14"
+          >
+            Any entities, names, marks, emblems, and images related to Chuck and
+            the digital asset discussed are purely fictional for illustrative
+            purposes and not connected to any real individuals or entities.
+            Their use implies no official endorsement or association.
+          </p>
+          <hr />
+          <div className="mt-12">
+            <p className="text-center mx-auto max-w-2xl italic">
+              Please read the following disclaimer carefully before engaging in
+              any buying, selling, or trading oncryptocurrency exchanges such as
+              Uniswap.
+            </p>
+          </div>
 
           <Link href="https://www.base.org/" target="_blank">
             <div className="flex items-center gap-1 justify-center text-xl mt-14">

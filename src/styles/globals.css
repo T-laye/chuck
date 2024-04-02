@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "window";
-  src: url("/fonts/windows_command_prompt.ttf");
+  src: url("/fonts/window_font.otf");
 }
 @font-face {
   font-family: "nimbus";
@@ -43,7 +43,7 @@ body {
   color: white;
   @apply bg-primary
   /* font-size: 20px; */
-  /* font-family: "pixelifySans", sans-serif; */
+  /* font-family: "pixelifySans", sans-serif; */;
 }
 
 html {

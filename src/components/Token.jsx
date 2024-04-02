@@ -17,7 +17,7 @@ export default function Token() {
   };
   return (
     <section id="tokenomics" className="pb-10 pt-10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 font-silkscreen">
         <DropBoxes />
         <h2
           data-aos="fade-down"
@@ -30,7 +30,7 @@ export default function Token() {
           data-aos="fade-right"
           data-aos-delay="100"
           onClick={handleCopyToClipboard}
-          className="whitespace-wrap break-words  text-center text-red-700 mb-10 font-bold text-2xl"
+          className="whitespace-wrap break-words font-silkscreen  text-center text-red-700 mb-10 font-bold text-2xl"
         >
           0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
           {/* <span>
@@ -47,7 +47,7 @@ export default function Token() {
         <p
           data-aos="fade-down"
           data-aos-delay="100"
-          className="text-2xl text-center text-red-700 font-bold"
+          className="text-2xl text-center font-silkscreen text-red-700 font-bold"
         >
           1,000,000,000
         </p>
@@ -117,7 +117,7 @@ export default function Token() {
           </div>
           <div className="flex flex-col items-center gap-3">
             {/* <div
-              data-aos="zoom-in"
+              data-aos="zoom-in" 
               data-aos-delay="100"
               className="chart chart-4"
             ></div> */}

@@ -8,12 +8,12 @@ export default function Hero() {
   return (
     <div className="min-h-screen pt-16 lg:pt-24 pb-20 border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row lg:h-screen gap-10">
+      <div className="container mx-auto px-2 flex flex-col lg:flex-row lg:h-screen gap-10">
         <div className="flex flex-col mt-0 gap-5 items-center lg:items-start pt-10 lg:justify-start lg:mt-10 lg:w-1/2 lg:h-full bg-rd-400">
           <h1
-            data-aos="fade-down"
-            data-aos-delay="300"
-            className="font-window text-center text-4xl lg:text-5xl xl:text-7xl lg:text-start"
+            // data-aos="fade-down"
+            // data-aos-delay="300"
+            className="font-window text-center text-3xl lg:text-5xl xl:text-6xl lg:text-start"
           >
             Chuck, the round house kicking crypto canine, unleashed strength for
             a pawsitive cause !

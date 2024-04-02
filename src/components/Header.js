@@ -47,7 +47,9 @@ export default function Header() {
           >
             <ul className="flex space-x-10 text-lg font-medium">
               <li className="link ">
-                <Link href="/whitePaper">White Paper</Link>
+                <Link href="/whitePaper" target="_blank">
+                  White Paper
+                </Link>
               </li>
               <li className="link ">
                 <Link href="/#roadmap">RoadMap</Link>
@@ -136,7 +138,9 @@ export default function Header() {
                   </div>
                   <ul className="flex flex-col space-y-2.5 text-lg font-medium mt-10 bggray-800 justify-center place-self-center  w-full items-start ">
                     <li className="link ">
-                      <Link href="/whitePaper">White Paper</Link>
+                      <Link href="/whitePaper" target="_blank">
+                        White Paper
+                      </Link>
                     </li>
                     <li className="link ">
                       <Link href="/#roadmap">RoadMap</Link>
