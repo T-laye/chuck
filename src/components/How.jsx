@@ -40,6 +40,10 @@ export default function How() {
             <p data-aos="flip-down" data-aos-delay="100">
               Go on Uniswap and swap your Base Ethereum for $CHUCK.
             </p>
+
+            <div className="mt-10">
+              <video src="/videos/How_to_uniswap_edit.mp4" controls></video>
+            </div>
           </div>
 
           <div>
@@ -61,16 +65,16 @@ export default function How() {
             </p>
 
             <div>
-              <div className="mb-16 mt-10">
+              <div className="mb- mt-5">
                 <h2
                   data-aos="flip-down"
                   data-aos-delay="100"
-                  className="  font-upheavtt text-xl mb-4"
+                  className=" text-xl mb-"
                 >
                   {" "}
                   1. Click on MetaMask Browser Extension
                 </h2>
-                <div
+                {/* <div
                   data-aos="zoom-out"
                   data-aos-delay="100"
                   className=" w-full max-w-xl mt-2"
@@ -82,17 +86,17 @@ export default function How() {
                     width={400}
                     className="h-full w-full object-contain"
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="mb-16">
+              <div className="mb-">
                 <h2
                   data-aos="flip-down"
                   data-aos-delay="100"
-                  className="  font-upheavtt text-xl mt-4"
+                  className=" text-xl mt-4"
                 >
                   2. Click on MetaMask Browser Extension
                 </h2>
-                <div
+                {/* <div
                   data-aos="zoom-out"
                   data-aos-delay="100"
                   className=" w-full max-w-64 mt-4"
@@ -104,17 +108,17 @@ export default function How() {
                     width={400}
                     className="h-full w-full object-contain"
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="mb-16">
+              <div className="mb-">
                 <h2
                   data-aos="flip-down"
                   data-aos-delay="100"
-                  className="font-upheavtt text-xl mt-4"
+                  className=" text-xl mt-4"
                 >
                   3. Locate Base Network and Click Add.
                 </h2>
-                <div
+                {/* <div
                   data-aos="zoom-out"
                   data-aos-delay="100"
                   className=" w-full max-w-xl mt-4"
@@ -126,17 +130,17 @@ export default function How() {
                     width={400}
                     className="h-full w-full object-contain"
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="mb-16">
+              <div className="mb-">
                 <h2
                   data-aos="flip-down"
                   data-aos-delay="100"
-                  className="font-upheavtt text-xl mt-4"
+                  className=" text-xl mt-4"
                 >
                   4. Click Approve on the pop-up screen.
                 </h2>
-                <div
+                {/* <div
                   data-aos="zoom-out"
                   data-aos-delay="100"
                   className=" w-full max-w-64 mt-2"
@@ -148,7 +152,10 @@ export default function How() {
                     width={400}
                     className="h-full w-full object-contain"
                   />
-                </div>
+                </div> */}
+              </div>
+              <div className="mt-10 mb-16">
+                <video src="/videos/Add_base_to_metamask.mp4" controls></video>
               </div>
             </div>
 
