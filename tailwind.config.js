@@ -15,6 +15,7 @@ module.exports = {
         window: ["window", "sans-serif"],
         upheavtt: ["upheavtt", "sans-serif"],
         pixelifySans: ["pixelifySans", "sans-serif"],
+        nimbus: ["nimbus", "sans-serif"],
       },
       colors: {
         primary: "#000060",

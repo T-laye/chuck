@@ -14,9 +14,9 @@ export default function Overview() {
           Why Chuck ?
         </h2>{" "}
         <p
-          data-aos="fade-down"
-          data-aos-delay="0"
-          className="text-center text-base lg:text-2xl max-w-6xl"
+          // data-aos="fade-down"
+          // data-aos-delay="0"
+          className="text-center text-base lg:text-2xl max-w-6xl font-nimbus"
         >
           Born from a deep admiration for iconic internet humor, this token
           transcends its meme origins. It lies at the heart of a vibrant,
@@ -24,7 +24,7 @@ export default function Overview() {
           animal welfare. Whether you are here to share a laugh, spread love for
           our furry friends, or explore the world of Web3, you&apos;re welcomed
           with open paws. Join us in fostering not just a community, but a
-          movement committed tomaking a difference, one meme at a time.
+          movement committed to making a difference, one meme at a time.
         </p>{" "}
       </div>
     </div>

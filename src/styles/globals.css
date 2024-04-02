@@ -6,7 +6,11 @@
 
 @font-face {
   font-family: "window";
-  src: url("/fonts/windows_command_prompt.ttf");
+  src: url("/fonts/windows_command_prompt.woff2");
+}
+@font-face {
+  font-family: "nimbus";
+  src: url("/fonts/NimbusSanL-Bol.otf");
 }
 
 @font-face {

@@ -9,7 +9,7 @@ export default function RoadMapCards({ topic, content, date, number }) {
     >
       <div className="flex flex-col space-y-1 shadow-md pl-4 pt-2 pb-4   relative text-base bg-white rounded-xl text-black px-4 w-full max-w-lg">
         <div className=" h-7 w-7 rounded-full flex flex-col justify-center items-center absolute -bottom-2 -left-[15px] -z-9 bg-primary">
-          <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center">
+          <div className="h-6 w-6 bg-white font-window  rounded-full text-base font-bold flex items-center justify-center">
             1
           </div>
         </div>
@@ -19,7 +19,7 @@ export default function RoadMapCards({ topic, content, date, number }) {
           className="flex  flex-col space-y-1 ml-2 "
         >
           <h3 className=" text-sm font-bold ">
-            <div className="flex text-primary justify-between">
+            <div className="flex text-primary justify-between font-window">
               <div>Project Awareness Building</div> <div> Q2 2024</div>
             </div>
           </h3>

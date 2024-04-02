@@ -14,7 +14,7 @@ export default function RoadMap() {
         >
           Chuck Roadmap
         </h2>
-        <div className="flex flex-col gap-5  ">
+        <div className="flex flex-col gap-5  font-nimbus">
           <RoadMapCards />
           {/* two */}
           <div
@@ -24,7 +24,7 @@ export default function RoadMap() {
           >
             <div className="flex flex-col space-y-1 shadow-md pl-4 pt-2 pb-4 relative text-base bg-white rounded-xl text-black px-4 min-w-sm w-full">
               <div className=" h-7 w-7 rounded-full flex flex-col justify-center items-center absolute -bottom-2 -left-[15px] -z-9 bg-primary">
-                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center">
+                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center font-window">
                   2
                 </div>
               </div>
@@ -34,7 +34,7 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex text-primary justify-between">
+                  <div className="flex text-primary justify-between font-window">
                     <div>Community Advancement</div> <div> Q3 2024</div>
                   </div>
                 </h3>
@@ -56,7 +56,7 @@ export default function RoadMap() {
           >
             <div className="flex flex-col space-y-1 shadow-md pl-4 pt-2 pb-4 relative text-base bg-white rounded-xl text-black px-4 w-full max-w-lg">
               <div className=" h-7 w-7 rounded-full flex flex-col justify-center items-center absolute -bottom-2 -left-[15px] -z-9 bg-primary">
-                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center">
+                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center font-window">
                   3
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex text-primary justify-between">
+                  <div className="flex text-primary font-window justify-between">
                     <div>Community Advancement</div> <div> Q3 2024</div>
                   </div>
                 </h3>
@@ -88,7 +88,7 @@ export default function RoadMap() {
           >
             <div className="flex flex-col space-y-1 shadow-md pl-4 pt-2 pb-4 relative text-base bg-white rounded-xl text-black px-4 w-full max-w-lg">
               <div className=" h-7 w-7 rounded-full flex flex-col justify-center items-center absolute -bottom-2 -left-[15px] -z-9 bg-primary">
-                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center">
+                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center font-window">
                   4
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex text-primary justify-between">
+                  <div className="flex font-window text-primary justify-between">
                     <div>Community Advancement</div> <div> Q4 2024</div>
                   </div>
                 </h3>
@@ -119,7 +119,7 @@ export default function RoadMap() {
           >
             <div className="flex flex-col space-y-1 shadow-md pl-4 pt-2 pb-4 relative text-base bg-white rounded-xl text-black px-4 w-full max-w-lg">
               <div className=" h-7 w-7 rounded-full flex flex-col justify-center items-center absolute -bottom-2 -left-[15px] -z-9 bg-primary">
-                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center">
+                <div className="h-6 w-6 bg-white   rounded-full text-base font-bold flex items-center justify-center font-window">
                   5
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex text-primary justify-between">
+                  <div className="flex font-window text-primary justify-between">
                     <div>Continued Development</div> <div> Q1 2024</div>
                   </div>
                 </h3>

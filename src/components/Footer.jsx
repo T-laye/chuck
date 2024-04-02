@@ -12,7 +12,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#0070F0] border-t border-[#0070F0] pb-5 pt-6 font-pixelifySans">
+    <footer className="relative bg-primary border-t border-secondary pb-5 pt-6 font-pixelifySans">
       <div className="flex flex-col md:flex-row justify-between  md:gap-12">
         <div className="w-full flex justify-between  md:justify-center  ">
           <div className="flex items-start justify-between mb-1 w-full px-2">
@@ -21,6 +21,21 @@ function Footer() {
                 <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 7.png"
+                    alt="Chuk"
+                    height={500}
+                    width={500}
+                    priority
+                    className="h-full w-full"
+                  />
+                </div>
+              </Link>
+              <Link
+                href="https://www.dextools.io/app/en/base/pair-explorer/0xa878a7944062c3984b214a6f7bc3970f4a6a5257"
+                target="_blank"
+              >
+                <div className="w-6 lg:w-10 rounded-md overflow-hidden">
+                  <Image
+                    src="/socials/DEXTools Isotype_white (alternative color).png"
                     alt="Chuk"
                     height={500}
                     width={500}
@@ -77,6 +92,18 @@ function Footer() {
                 <div className="w-7 lg:w-12 rounded-md overflow-hidden">
                   <Image
                     src="/socials/BASE-UNISWAP-TELEGRAM_LOGOS_Plan de travail 1 copie 11.png"
+                    alt="Chuk"
+                    height={500}
+                    width={500}
+                    priority
+                    className="h-full w-full"
+                  />
+                </div>
+              </Link>
+              <Link href="hthttps://www.tiktok.com/@chucksdog" target="_blank">
+                <div className="w-8 lg:w-12 rounded-md overflow-hidden">
+                  <Image
+                    src="/socials/Tiktok_logo.png"
                     alt="Chuk"
                     height={500}
                     width={500}

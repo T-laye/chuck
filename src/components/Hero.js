@@ -41,9 +41,9 @@ export default function Hero() {
             className="w-1/2"
           >
             <button
-              data-aos="flip-down"
-              data-aos-delay="100"
-              className="btn w-full bg-red-700 text-xl border border-secondary"
+              // data-aos="flip-down"
+              // data-aos-delay="100"
+              className="btn w-full mt-5 font-upheavtt bg-red-700 text-xl lg:text-2xl border border-secondary"
             >
               Buy Now
             </button>
