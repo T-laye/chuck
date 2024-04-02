@@ -69,7 +69,7 @@ export default function Token() {
               />
             </div>
             <p data-aos="fade-left" data-aos-delay="100" className="text-2xl">
-              60% LP
+              70% LP
             </p>
           </div>
           {/* <div className="flex flex-col items-center gap-3">
@@ -84,7 +84,7 @@ export default function Token() {
             ></div> */}
             <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
               <Image
-                src="/images/TOCKENOMICS_10_.png"
+                src="/images/TOCKENOMICS_15_.png"
                 height={500}
                 width={500}
                 alt="chart"
@@ -93,7 +93,7 @@ export default function Token() {
             </div>
 
             <p data-aos="fade-right" data-aos-delay="100" className="text-2xl">
-              10% Team
+              15% Development
             </p>
           </div>
           <div className="flex flex-col items-center gap-3">
@@ -112,7 +112,7 @@ export default function Token() {
               />
             </div>
             <p data-aos="fade-left" data-aos-delay="100" className="text-2xl">
-              10% Community
+              7.5% AirDrop
             </p>
           </div>
           <div className="flex flex-col items-center gap-3">
@@ -123,7 +123,7 @@ export default function Token() {
             ></div> */}
             <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
               <Image
-                src="/images/TOCKENOMICS_15_.png"
+                src="/images/TOCKENOMICS_10_.png"
                 height={500}
                 width={500}
                 alt="chart"
@@ -131,15 +131,15 @@ export default function Token() {
               />
             </div>
             <p data-aos="fade-right" data-aos-delay="100" className="text-2xl">
-              15% Marketing
+              7.5% Marketing
             </p>
           </div>
-          <div className="flex flex-col items-center gap-3">
-            {/* <div
+          {/* <div className="flex flex-col items-center gap-3">
+            <div
               data-aos="zoom-in"
               data-aos-delay="100"
               className="chart chart-5"
-            ></div> */}
+            ></div>
             <div data-aos="zoom-in" data-aos-delay="100" className="h-40 w-40">
               <Image
                 src="/images/TOCKENOMICS_5_.png"
@@ -152,7 +152,7 @@ export default function Token() {
             <p data-aos="fade-right" data-aos-delay="100" className="text-2xl">
               5% Dev
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
