@@ -119,34 +119,7 @@ export default function WhitePaper() {
             industry.
           </p>
 
-          <h3
-            data-aos="fade-right"
-            data-aos-delay="100"
-            className="font-upheavtt text-center text-2xl lg:text-3xl mt-14  "
-          >
-            The Utility
-          </h3>
-          <p
-            data-aos="fade-right"
-            data-aos-delay="100"
-            className=" text-xl mt-2 text-center"
-          >
-            Designed with fun and community engagement at its core, $CHUCK
-            serves as more than just a token; it&apos;s a passport to an
-            exclusive club. Owning $CHUCK tokens grants access to the $CHUCK
-            Telegram group and Chuck-Bot, a specialized bot providing community
-            members with crucial insights into the crypto market, including
-            updates on trending coins and ETH gas fees. Token holders are also
-            privy to communitygenerated NFTs, games, and exclusive content.
-            Beyond its role as a dog-themed meme coin, $CHUCK is committed to
-            making a tangible impact on the welfare of dogs. Each $CHUCK
-            transaction includes a 5% tax, from which 2% is dedicated to
-            supporting dog charities. This initiative marks $CHUCK as the first
-            meme coin with a direct focus on benefiting our furry friends,
-            aligning with the wider meme culture prevalent in the crypto
-            industry.
-          </p>
-
+        
           <Link href="https://www.base.org/" target="_blank">
             <div className="flex items-center gap-1 justify-center text-xl mt-14">
               <div> CHUCK on Base</div>{" "}
