@@ -20,8 +20,12 @@
 
 @font-face {
   font-family: "pixelifySans";
-  src: url("/fonts/PixelifySans.ttf");
+  src: url("/fonts/window_font.otf");
 }
+/* @font-face {
+  font-family: "pixelifySans";
+  src: url("/fonts/PixelifySans.ttf");
+} */
 
 @tailwind base;
 @tailwind components;
@@ -74,7 +78,7 @@ html {
 }
 .link:hover {
   transition: all 0.4s ease;
-  @apply text-red-700;
+  @apply text-white;
 }
 
 .chart {

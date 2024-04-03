@@ -20,7 +20,7 @@ export default function How() {
           <h1
             data-aos="flip-down"
             data-aos-delay="100"
-            className="font-upheavtt text-2xl mt-4 "
+            className="font-upheavtt text-2xl mt-4 text-yellow-400"
           >
             Have some Ethereum in your wallet
           </h1>
@@ -33,7 +33,7 @@ export default function How() {
             <h2
               data-aos="flip-down"
               data-aos-delay="100"
-              className="  font-upheavtt text-2xl mt-8"
+              className="  font-upheavtt text-2xl mt-8 text-yellow-400"
             >
               Add Base network to metamask
             </h2>
@@ -53,7 +53,7 @@ export default function How() {
             <h2
               data-aos="flip-down"
               data-aos-delay="100"
-              className="  font-upheavtt text-2xl mt-10"
+              className="  font-upheavtt text-2xl mt-10 text-yellow-400"
             >
               Bridge your ETH
             </h2>
@@ -73,7 +73,7 @@ export default function How() {
           <h2
             data-aos="flip-down"
             data-aos-delay="100"
-            className="  font-upheavtt text-2xl mt-10"
+            className="  font-upheavtt text-2xl mt-10 text-yellow-400"
           >
             Swap your ETH on Base for $CHUCK{" "}
           </h2>

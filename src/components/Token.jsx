@@ -22,7 +22,7 @@ export default function Token() {
         <h2
           data-aos="fade-down"
           data-aos-delay="100"
-          className="font-upheavtt text-center text-3xl "
+          className="font-upheavtt text-center text-yellow-400 text-3xl "
         >
           Token Address
         </h2>
@@ -30,7 +30,7 @@ export default function Token() {
           data-aos="fade-right"
           data-aos-delay="100"
           onClick={handleCopyToClipboard}
-          className="whitespace-wrap break-words font-silkscreen  text-center text-red-700 mb-10 font-bold text-2xl"
+          className="whitespace-wrap break-words font-window  text-center  mb-10 font-medium text-2xl"
         >
           0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A{" "}
           {/* <span>
@@ -40,14 +40,14 @@ export default function Token() {
         <h2
           data-aos="fade-down"
           data-aos-delay="100"
-          className="font-upheavtt text-center text-3xl "
+          className="font-upheavtt text-center text-3xl text-yellow-400"
         >
           Token Supply
         </h2>
         <p
           data-aos="fade-down"
           data-aos-delay="100"
-          className="text-2xl text-center font-silkscreen text-red-700 font-bold"
+          className="text-2xl text-center font-window  font-medium"
         >
           1,000,000,000
         </p>

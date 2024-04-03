@@ -130,7 +130,7 @@ export default function RoadMap() {
               >
                 <h3 className=" text-sm font-bold ">
                   <div className="flex font-window text-primary justify-between">
-                    <div>Continued Development</div> <div> Q1 2024</div>
+                    <div>Continued Development</div> <div> Q1 2025</div>
                   </div>
                 </h3>
                 <ul className="text-base list-disc">
