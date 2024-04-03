@@ -19,8 +19,9 @@ export default function RoadMapCards({ topic, content, date, number }) {
           className="flex  flex-col space-y-1 ml-2 "
         >
           <h3 className=" text-sm font-bold ">
-            <div className="flex text-primary justify-between font-window">
-              <div>Project Awareness Building</div> <div> Q2 2024</div>
+            <div className="flex text-primary justify-between text-xl font-window">
+              <div>Project Awareness Building</div>{" "}
+              <div className="whitespace-nowrap"> Q2 2024</div>
             </div>
           </h3>
           <ul className="text-base list-disc">

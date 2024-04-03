@@ -22,7 +22,7 @@ export default function Token() {
         <h2
           data-aos="fade-down"
           data-aos-delay="100"
-          className="font-upheavtt text-center text-yellow-400 text-3xl "
+          className="font-upheavtt text-center text-secondary text-3xl "
         >
           Token Address
         </h2>
@@ -40,7 +40,7 @@ export default function Token() {
         <h2
           data-aos="fade-down"
           data-aos-delay="100"
-          className="font-upheavtt text-center text-3xl text-yellow-400"
+          className="font-upheavtt text-center text-3xl text-secondary"
         >
           Token Supply
         </h2>
