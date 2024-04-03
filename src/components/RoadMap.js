@@ -49,7 +49,7 @@ export default function RoadMap() {
             </div>
           </div>
           {/* three */}
-          <div
+          {/* <div
             data-aos="zoom-in"
             data-aos-delay="0"
             className="mb-6 flex max-w-lg w-full md:w-2/3 mx-auto"
@@ -79,7 +79,7 @@ export default function RoadMap() {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* four */}
           <div
             data-aos="zoom-in"

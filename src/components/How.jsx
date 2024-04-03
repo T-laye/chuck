@@ -8,7 +8,7 @@ export default function How() {
   return (
     <div id="how">
       <DropBoxes />
-      <div className="pb-20 min-h-screen px-4 container mx-auto max-w-5xl ">
+      <div className="pb-20 min-h-screen px-4 container mx-auto max-w-5xl font-nimbus">
         <div className="lg:pt-[140px] pt-[100px] text-lg   ">
           <h2
             data-aos="flip-down"

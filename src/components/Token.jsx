@@ -52,7 +52,7 @@ export default function Token() {
           1,000,000,000
         </p>
 
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-y-10 gap-x-20">
+        <div className="mt-10 flex flex-wrap items-center font-window justify-center gap-y-10 gap-x-20">
           <div className="flex flex-col items-center gap-3 ">
             {/* <div
               data-aos="zoom-in"

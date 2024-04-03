@@ -122,7 +122,7 @@ function Footer() {
           reserved.
         </p> */}
         <Link href="/disclaimer" target="_blank">
-          <p className="text-center">Disclaimer</p>
+          <p className="text-center underline underline-offset-2">Disclaimer</p>
         </Link>
         <p className="text-center">Powered by Base</p>
         <p className="text-center mt-2">
