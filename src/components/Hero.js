@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className="min-h-screen pt-16 lg:pt-24 pb-20 border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
-      <div className="container mx-auto px-2 flex flex-col lg:flex-row lg:h-screen gap-10">
+      <div className="container mx-auto lg:px-8 px-4 flex flex-col lg:flex-row lg:h-screen gap-10">
         <div className="flex flex-col mt-0 gap-5 items-center lg:items-start pt-10 lg:justify-start lg:mt-10 lg:w-1/2 lg:h-full bg-rd-400">
           <h1
             // data-aos="fade-down"
@@ -38,7 +38,7 @@ export default function Hero() {
           <Link
             href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
             target="_blank"
-            className="w-1/2 hidden"
+            className="w-1/2 hidden lg:block"
           >
             <button
               // data-aos="flip-down"

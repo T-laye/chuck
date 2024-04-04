@@ -16,7 +16,7 @@ export default function Overview() {
         <p
           // data-aos="fade-down"
           // data-aos-delay="0"
-          className="text-center text-base lg:text-2xl max-w-6xl font-nimbus"
+          className="text-center text-base lg:text-2xl lg:max-w-4xl xl:max-w-6xl font-nimbus"
         >
           Born from a deep admiration for iconic internet humor, this token
           transcends its meme origins. It lies at the heart of a vibrant,

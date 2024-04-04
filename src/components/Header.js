@@ -34,7 +34,7 @@ export default function Header() {
           : "-top-full transform -translate-y-full "
       } `}
     >
-      <div className="container mx-auto pl-2 pr-4  h-full flex items-center justify-between">
+      <div className="container mx-auto pl-2 pr-4 lg:pl-6 lg:pr-8  h-full flex items-center justify-between">
         <div data-aos="flip-down" data-aos-delay="100">
           <Logo />
         </div>
