@@ -38,12 +38,12 @@ export default function Hero() {
           <Link
             href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
             target="_blank"
-            className="w-1/2"
+            className="w-1/2 hidden"
           >
             <button
               // data-aos="flip-down"
               // data-aos-delay="100"
-              className="btn w-full mt-5 font-upheavtt bg-red-700 text-xl lg:text-2xl border border-secondary"
+              className="btn w-full  mt-5 font-upheavtt bg-red-700 text-xl lg:text-2xl border border-secondary"
             >
               Buy Now
             </button>
@@ -63,6 +63,19 @@ export default function Hero() {
               className="h-full w-full object-contain"
             />
           </div>
+          <Link
+            href="https://app.uniswap.org/explore/tokens/base/0x7a8a5012022bccbf3ea4b03cd2bb5583d915fb1a"
+            target="_blank"
+            className="w-1/2 lg:hidden"
+          >
+            <button
+              // data-aos="flip-down"
+              // data-aos-delay="100"
+              className="btn w-3/4 mx-auto mt-10 font-upheavtt bg-red-700 text-xl lg:text-2xl border border-secondary"
+            >
+              Buy Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>

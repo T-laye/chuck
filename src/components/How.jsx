@@ -82,7 +82,7 @@ export default function How() {
             data-aos-delay="100"
             className="whitespace-wrap break-words"
           >
-            Go on Uniswap and swap your Base Ethereum for $CHUCK Make sure you
+            Go on Uniswap and swap your Base Ethereum for $CHUCK. Make sure you
             use the correct token address <br />
             0x7A8A5012022BCCBf3EA4b03cD2bb5583d915fb1A
           </p>
