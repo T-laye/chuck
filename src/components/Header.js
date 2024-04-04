@@ -45,14 +45,14 @@ export default function Header() {
             data-aos-delay="100"
             className="hidden lg:block mr-10"
           >
-            <ul className="flex space-x-10 text-lg font-medium">
+            <ul className="flex space-x-10 text-2xl font-medium">
               <li className="link ">
                 <Link href="/whitePaper" target="_blank">
-                  White Paper
+                  Whitepaper
                 </Link>
               </li>
               <li className="link ">
-                <Link href="/#roadmap">RoadMap</Link>
+                <Link href="/#roadmap">Roadmap</Link>
               </li>
               <li className="link ">
                 <Link href="/#tokenomics">Tokenomics</Link>
@@ -136,14 +136,14 @@ export default function Header() {
                       className=" object-center w-full  object-contain "
                     /> */}
                   </div>
-                  <ul className="flex flex-col space-y-2.5 text-lg font-medium mt-10 bggray-800 justify-center place-self-center  w-full items-start ">
+                  <ul className="flex flex-col space-y-2.5 text-2xl font-medium mt-10 bggray-800 justify-center place-self-center  w-full items-start ">
                     <li className="link ">
                       <Link href="/whitePaper" target="_blank">
-                        White Paper
+                        Whitepaper
                       </Link>
                     </li>
                     <li className="link ">
-                      <Link href="/#roadmap">RoadMap</Link>
+                      <Link href="/#roadmap">Roadmap</Link>
                     </li>
                     <li className="link ">
                       <Link href="/#tokenomics">Tokenomics</Link>

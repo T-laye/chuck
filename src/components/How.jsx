@@ -75,7 +75,7 @@ export default function How() {
             data-aos-delay="100"
             className="  font-upheavtt text-2xl mt-10 text-secondary"
           >
-            Swap your ETH on Base for $CHUCK{" "}
+            Swap your ETH on Base for $CHUCK.{" "}
           </h2>
           <p
             data-aos="flip-down"

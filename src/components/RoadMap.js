@@ -34,8 +34,9 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex text-primary justify-between font-window text-xl">
-                    <div>Community Advancement</div> <div> Q3 2024</div>
+                  <div className="flex text-primary justify-between font-window text-2xl">
+                    <div className="leading-6">Community Advancement</div>{" "}
+                    <div className="whitespace-nowrap"> Q3 2024</div>
                   </div>
                 </h3>
                 <ul className="text-base list-disc">
@@ -98,8 +99,9 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex font-window text-primary justify-between text-xl">
-                    <div>Community Advancement</div> <div> Q4 2024</div>
+                  <div className="flex font-window text-primary justify-between text-2xl">
+                    <div className="leading-6">Community Advancement</div>{" "}
+                    <div className="whitespace-nowrap"> Q4 2024</div>
                   </div>
                 </h3>
                 <ul className="text-base list-disc">
@@ -129,8 +131,9 @@ export default function RoadMap() {
                 className="flex  flex-col space-y-1 ml-2 "
               >
                 <h3 className=" text-sm font-bold ">
-                  <div className="flex font-window text-primary justify-between text-xl">
-                    <div>Continued Development</div> <div> Q1 2025</div>
+                  <div className="flex font-window text-primary justify-between text-2xl">
+                    <div className="leading-6">Continued Development</div>{" "}
+                    <div className="whitespace-nowrap"> Q1 2025</div>
                   </div>
                 </h3>
                 <ul className="text-base list-disc">

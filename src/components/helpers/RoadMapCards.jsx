@@ -19,16 +19,16 @@ export default function RoadMapCards({ topic, content, date, number }) {
           className="flex  flex-col space-y-1 ml-2 "
         >
           <h3 className=" text-sm font-bold ">
-            <div className="flex text-primary justify-between text-xl font-window">
+            <div className="flex text-primary justify-between text-2xl font-window">
               <div>Project Awareness Building</div>{" "}
               <div className="whitespace-nowrap"> Q2 2024</div>
             </div>
           </h3>
           <ul className="text-base list-disc">
             <li>Token Creation</li>
-            <li>BASE DEX Listing : Uniswap</li>
+            <li>BASE DEX Listing: Uniswap</li>
             <li>Website Development</li>
-            <li>Social Media Development : Telegram, X.</li>
+            <li>Social Media Development: Telegram, X</li>
             <li>Chuck Bot Telegram Integration</li>
             <li>Cross Channel Marketing with Influencers</li>
             <li>Major Dextools: CG and CMC Listings</li>
